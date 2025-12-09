@@ -1,3 +1,6 @@
+/**
+ * Class representing the game world.
+ */
 class World {
 
     character = new Character();
