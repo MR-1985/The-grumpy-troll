@@ -1,16 +1,11 @@
 let canvas;
 let ctx;
-let character = new Character();
-let enemies = [
-    new Chicken(),
-    new Chicken(),
-    new Chicken()
-]
+let world = new World();
 
 function init(){
 canvas = document.getElementById("canvas");
 ctx = canvas.getContext("2d");
 
-console.log("My char is",character)
-console.log("This are Enemies",enemies)
+console.log("My char is", world.character)
+console.log("This are Enemies", world.enemies)
 }
